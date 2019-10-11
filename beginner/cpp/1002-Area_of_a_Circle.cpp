@@ -1,7 +1,7 @@
 
-/*	---------------------------------------------------------------------------------
-	Problem
-	The formula to calculate the area of a circumference is defined as A = π . R2.
+/*  ---------------------------------------------------------------------------------
+    Problem
+    The formula to calculate the area of a circumference is defined as A = π . R2.
     Considering to this problem that π = 3.14159:
 
     Calculate the area using the formula given in the problem description.
@@ -24,18 +24,18 @@
 using namespace std;
 
 int main() {
-	ios_base::sync_with_stdio( false );
+    ios_base::sync_with_stdio( false );
     cout.setf( ios::fixed, ios::floatfield );
     cout.precision( 4 );
 
-	double A, R;
+    double A, R;
 
-	cin >> R;
+    cin >> R;
 
-	A = PI * ( R * R );
+    A = PI * ( R * R );
 
-	cout << "A=" << A << endl;
+    cout << "A=" << A << endl;
 
-	system("PAUSE");
+    system("PAUSE");
     return EXIT_SUCCESS;
 }
